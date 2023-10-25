@@ -11,12 +11,6 @@ $ninitePath = "C:\Users\runneradmin\Downloads\ninite.exe"
 # Executa o arquivo ninite.exe
 Start-Process $ninitePath
 
-# Espera por mais 10 segundos
-Start-Sleep -Seconds 10
-
-# Remove todos os arquivos na pasta Downloads
-Remove-Item "C:\Users\runneradmin\Downloads\*" -Force -Recurse
-
 # Contagem regressiva
 $i = 360
 do {
